@@ -7,7 +7,25 @@
 		<key>SSL Pinning.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1EE1A5A42CB020C000B89E46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1EE1A5BA2CB020C200B89E46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1EE1A5C42CB020C200B89E46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

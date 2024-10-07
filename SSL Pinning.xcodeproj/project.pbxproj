@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EB2766E2CB1BD880035D2EA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1EB2766D2CB1BD880035D2EA /* Alamofire */; };
+		1EB276732CB1BE000035D2EA /* TrustKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1EB276722CB1BE000035D2EA /* TrustKit */; };
+		1EB276772CB1BE000035D2EA /* TrustKitStatic in Frameworks */ = {isa = PBXBuildFile; productRef = 1EB276762CB1BE000035D2EA /* TrustKitStatic */; };
+		1EB276792CB317BA0035D2EA /* CertificatePinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB276782CB317BA0035D2EA /* CertificatePinner.swift */; };
 		1EE1A5A92CB020C000B89E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5A82CB020C000B89E46 /* AppDelegate.swift */; };
 		1EE1A5AB2CB020C000B89E46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5AA2CB020C000B89E46 /* SceneDelegate.swift */; };
 		1EE1A5AD2CB020C000B89E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5AC2CB020C000B89E46 /* ViewController.swift */; };
@@ -16,6 +20,14 @@
 		1EE1A5C02CB020C200B89E46 /* SSL_PinningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5BF2CB020C200B89E46 /* SSL_PinningTests.swift */; };
 		1EE1A5CA2CB020C200B89E46 /* SSL_PinningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5C92CB020C200B89E46 /* SSL_PinningUITests.swift */; };
 		1EE1A5CC2CB020C200B89E46 /* SSL_PinningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5CB2CB020C200B89E46 /* SSL_PinningUITestsLaunchTests.swift */; };
+		1EE1A5E42CB022A800B89E46 /* NetworkManagerAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5E32CB022A800B89E46 /* NetworkManagerAlamofire.swift */; };
+		1EE1A5E62CB0238F00B89E46 /* NetworkManagerURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5E52CB0238F00B89E46 /* NetworkManagerURLSession.swift */; };
+		1EE1A5EB2CB025A300B89E46 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5EA2CB025A300B89E46 /* WeatherModel.swift */; };
+		1EE1A5EE2CB029BF00B89E46 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1A5ED2CB029BF00B89E46 /* Constants.swift */; };
+		1EE1A5FA2CB0833E00B89E46 /* openweathermap.org.cer in Resources */ = {isa = PBXBuildFile; fileRef = 1EE1A5F92CB0833E00B89E46 /* openweathermap.org.cer */; };
+		7E47E52DF0BF4909A9ABDE7E /* Pods_SSL_PinningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1406E68EF812562310179DC1 /* Pods_SSL_PinningTests.framework */; };
+		8A65AEF097325D721E72A5A3 /* Pods_SSL_Pinning_SSL_PinningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A347ED3EC4B5E904797243 /* Pods_SSL_Pinning_SSL_PinningUITests.framework */; };
+		8B6758D7E0658745945BB695 /* Pods_SSL_Pinning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9E6FFCBDCBCB5EFE3F2A48 /* Pods_SSL_Pinning.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1406E68EF812562310179DC1 /* Pods_SSL_PinningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSL_PinningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB276782CB317BA0035D2EA /* CertificatePinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatePinner.swift; sourceTree = "<group>"; };
 		1EE1A5A52CB020C000B89E46 /* SSL Pinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSL Pinning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE1A5A82CB020C000B89E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE1A5AA2CB020C000B89E46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,19 @@
 		1EE1A5C52CB020C200B89E46 /* SSL PinningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSL PinningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE1A5C92CB020C200B89E46 /* SSL_PinningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSL_PinningUITests.swift; sourceTree = "<group>"; };
 		1EE1A5CB2CB020C200B89E46 /* SSL_PinningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSL_PinningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EE1A5E32CB022A800B89E46 /* NetworkManagerAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerAlamofire.swift; sourceTree = "<group>"; };
+		1EE1A5E52CB0238F00B89E46 /* NetworkManagerURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerURLSession.swift; sourceTree = "<group>"; };
+		1EE1A5EA2CB025A300B89E46 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		1EE1A5ED2CB029BF00B89E46 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1EE1A5F92CB0833E00B89E46 /* openweathermap.org.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = openweathermap.org.cer; path = "SSL Pinning/openweathermap.org.cer"; sourceTree = SOURCE_ROOT; };
+		499E5A0975FE1249EB422D38 /* Pods-SSL PinningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSL PinningTests.release.xcconfig"; path = "Target Support Files/Pods-SSL PinningTests/Pods-SSL PinningTests.release.xcconfig"; sourceTree = "<group>"; };
+		577B1B3A1B89B15882E330E0 /* Pods-SSL PinningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSL PinningTests.debug.xcconfig"; path = "Target Support Files/Pods-SSL PinningTests/Pods-SSL PinningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E3A85840A4878259C183B71 /* Pods-SSL Pinning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSL Pinning.release.xcconfig"; path = "Target Support Files/Pods-SSL Pinning/Pods-SSL Pinning.release.xcconfig"; sourceTree = "<group>"; };
+		83A347ED3EC4B5E904797243 /* Pods_SSL_Pinning_SSL_PinningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSL_Pinning_SSL_PinningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9E6FFCBDCBCB5EFE3F2A48 /* Pods_SSL_Pinning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSL_Pinning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678848E399B5F956DD25421 /* Pods-SSL Pinning-SSL PinningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSL Pinning-SSL PinningUITests.release.xcconfig"; path = "Target Support Files/Pods-SSL Pinning-SSL PinningUITests/Pods-SSL Pinning-SSL PinningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD0CD6606668146C7DD2A45C /* Pods-SSL Pinning-SSL PinningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSL Pinning-SSL PinningUITests.debug.xcconfig"; path = "Target Support Files/Pods-SSL Pinning-SSL PinningUITests/Pods-SSL Pinning-SSL PinningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F633AFB006E07DFB03A587CA /* Pods-SSL Pinning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSL Pinning.debug.xcconfig"; path = "Target Support Files/Pods-SSL Pinning/Pods-SSL Pinning.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6758D7E0658745945BB695 /* Pods_SSL_Pinning.framework in Frameworks */,
+				1EB276732CB1BE000035D2EA /* TrustKit in Frameworks */,
+				1EB276772CB1BE000035D2EA /* TrustKitStatic in Frameworks */,
+				1EB2766E2CB1BD880035D2EA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E47E52DF0BF4909A9ABDE7E /* Pods_SSL_PinningTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A65AEF097325D721E72A5A3 /* Pods_SSL_Pinning_SSL_PinningUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +116,8 @@
 				1EE1A5BE2CB020C200B89E46 /* SSL PinningTests */,
 				1EE1A5C82CB020C200B89E46 /* SSL PinningUITests */,
 				1EE1A5A62CB020C000B89E46 /* Products */,
+				89280107BAAB6AB0478C0CA8 /* Pods */,
+				D745922637655D73C8A35033 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +134,12 @@
 		1EE1A5A72CB020C000B89E46 /* SSL Pinning */ = {
 			isa = PBXGroup;
 			children = (
-				1EE1A5A82CB020C000B89E46 /* AppDelegate.swift */,
-				1EE1A5AA2CB020C000B89E46 /* SceneDelegate.swift */,
-				1EE1A5AC2CB020C000B89E46 /* ViewController.swift */,
-				1EE1A5AE2CB020C000B89E46 /* Main.storyboard */,
-				1EE1A5B12CB020C200B89E46 /* Assets.xcassets */,
-				1EE1A5B32CB020C200B89E46 /* LaunchScreen.storyboard */,
+				1EE1A5EC2CB029B100B89E46 /* Constants */,
+				1EE1A5DC2CB0221100B89E46 /* Networking */,
+				1EE1A5DB2CB021D800B89E46 /* StoryBoards */,
+				1EE1A5DA2CB021CB00B89E46 /* Resources */,
+				1EE1A5D92CB021BC00B89E46 /* Scenes */,
+				1EE1A5D82CB021AF00B89E46 /* Core */,
 				1EE1A5B62CB020C200B89E46 /* Info.plist */,
 			);
 			path = "SSL Pinning";
@@ -127,6 +162,131 @@
 			path = "SSL PinningUITests";
 			sourceTree = "<group>";
 		};
+		1EE1A5D82CB021AF00B89E46 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5A82CB020C000B89E46 /* AppDelegate.swift */,
+				1EE1A5AA2CB020C000B89E46 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1EE1A5D92CB021BC00B89E46 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5E72CB0257400B89E46 /* MainVC */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1EE1A5DA2CB021CB00B89E46 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5B12CB020C200B89E46 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1EE1A5DB2CB021D800B89E46 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5AE2CB020C000B89E46 /* Main.storyboard */,
+				1EE1A5B32CB020C200B89E46 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		1EE1A5DC2CB0221100B89E46 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5E12CB0224C00B89E46 /* TrustKit */,
+				1EE1A5E02CB0224200B89E46 /* URLSession */,
+				1EE1A5DF2CB0223A00B89E46 /* Alamofire */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1EE1A5DF2CB0223A00B89E46 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5E32CB022A800B89E46 /* NetworkManagerAlamofire.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		1EE1A5E02CB0224200B89E46 /* URLSession */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5E52CB0238F00B89E46 /* NetworkManagerURLSession.swift */,
+			);
+			path = URLSession;
+			sourceTree = "<group>";
+		};
+		1EE1A5E12CB0224C00B89E46 /* TrustKit */ = {
+			isa = PBXGroup;
+			children = (
+				1EB276782CB317BA0035D2EA /* CertificatePinner.swift */,
+			);
+			path = TrustKit;
+			sourceTree = "<group>";
+		};
+		1EE1A5E72CB0257400B89E46 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5E92CB0259100B89E46 /* Model */,
+				1EE1A5E82CB0258A00B89E46 /* View */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		1EE1A5E82CB0258A00B89E46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5AC2CB020C000B89E46 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EE1A5E92CB0259100B89E46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5EA2CB025A300B89E46 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1EE1A5EC2CB029B100B89E46 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1EE1A5F92CB0833E00B89E46 /* openweathermap.org.cer */,
+				1EE1A5ED2CB029BF00B89E46 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		89280107BAAB6AB0478C0CA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F633AFB006E07DFB03A587CA /* Pods-SSL Pinning.debug.xcconfig */,
+				7E3A85840A4878259C183B71 /* Pods-SSL Pinning.release.xcconfig */,
+				DD0CD6606668146C7DD2A45C /* Pods-SSL Pinning-SSL PinningUITests.debug.xcconfig */,
+				D678848E399B5F956DD25421 /* Pods-SSL Pinning-SSL PinningUITests.release.xcconfig */,
+				577B1B3A1B89B15882E330E0 /* Pods-SSL PinningTests.debug.xcconfig */,
+				499E5A0975FE1249EB422D38 /* Pods-SSL PinningTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D745922637655D73C8A35033 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D9E6FFCBDCBCB5EFE3F2A48 /* Pods_SSL_Pinning.framework */,
+				83A347ED3EC4B5E904797243 /* Pods_SSL_Pinning_SSL_PinningUITests.framework */,
+				1406E68EF812562310179DC1 /* Pods_SSL_PinningTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EE1A5CF2CB020C200B89E46 /* Build configuration list for PBXNativeTarget "SSL Pinning" */;
 			buildPhases = (
+				9224C542ADADCE0B515434BE /* [CP] Check Pods Manifest.lock */,
 				1EE1A5A12CB020C000B89E46 /* Sources */,
 				1EE1A5A22CB020C000B89E46 /* Frameworks */,
 				1EE1A5A32CB020C000B89E46 /* Resources */,
@@ -143,6 +304,11 @@
 			dependencies = (
 			);
 			name = "SSL Pinning";
+			packageProductDependencies = (
+				1EB2766D2CB1BD880035D2EA /* Alamofire */,
+				1EB276722CB1BE000035D2EA /* TrustKit */,
+				1EB276762CB1BE000035D2EA /* TrustKitStatic */,
+			);
 			productName = "SSL Pinning";
 			productReference = 1EE1A5A52CB020C000B89E46 /* SSL Pinning.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EE1A5D22CB020C200B89E46 /* Build configuration list for PBXNativeTarget "SSL PinningTests" */;
 			buildPhases = (
+				9E430AEB32F0EB0A326B087A /* [CP] Check Pods Manifest.lock */,
 				1EE1A5B72CB020C200B89E46 /* Sources */,
 				1EE1A5B82CB020C200B89E46 /* Frameworks */,
 				1EE1A5B92CB020C200B89E46 /* Resources */,
@@ -169,6 +336,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EE1A5D52CB020C200B89E46 /* Build configuration list for PBXNativeTarget "SSL PinningUITests" */;
 			buildPhases = (
+				3E79A8183578A3C3205B6096 /* [CP] Check Pods Manifest.lock */,
 				1EE1A5C12CB020C200B89E46 /* Sources */,
 				1EE1A5C22CB020C200B89E46 /* Frameworks */,
 				1EE1A5C32CB020C200B89E46 /* Resources */,
@@ -215,6 +383,10 @@
 				Base,
 			);
 			mainGroup = 1EE1A59C2CB020C000B89E46;
+			packageReferences = (
+				1EB2766C2CB1BD880035D2EA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1EB276712CB1BE000035D2EA /* XCRemoteSwiftPackageReference "TrustKit" */,
+			);
 			productRefGroup = 1EE1A5A62CB020C000B89E46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +403,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE1A5FA2CB0833E00B89E46 /* openweathermap.org.cer in Resources */,
 				1EE1A5B22CB020C200B89E46 /* Assets.xcassets in Resources */,
 				1EE1A5B52CB020C200B89E46 /* Base in Resources */,
 				1EE1A5B02CB020C000B89E46 /* Base in Resources */,
@@ -253,13 +426,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E79A8183578A3C3205B6096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSL Pinning-SSL PinningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9224C542ADADCE0B515434BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSL Pinning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E430AEB32F0EB0A326B087A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSL PinningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1EE1A5A12CB020C000B89E46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE1A5E62CB0238F00B89E46 /* NetworkManagerURLSession.swift in Sources */,
+				1EB276792CB317BA0035D2EA /* CertificatePinner.swift in Sources */,
 				1EE1A5AD2CB020C000B89E46 /* ViewController.swift in Sources */,
+				1EE1A5E42CB022A800B89E46 /* NetworkManagerAlamofire.swift in Sources */,
 				1EE1A5A92CB020C000B89E46 /* AppDelegate.swift in Sources */,
+				1EE1A5EE2CB029BF00B89E46 /* Constants.swift in Sources */,
+				1EE1A5EB2CB025A300B89E46 /* WeatherModel.swift in Sources */,
 				1EE1A5AB2CB020C000B89E46 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +684,7 @@
 		};
 		1EE1A5D02CB020C200B89E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F633AFB006E07DFB03A587CA /* Pods-SSL Pinning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +712,7 @@
 		};
 		1EE1A5D12CB020C200B89E46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3A85840A4878259C183B71 /* Pods-SSL Pinning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +740,7 @@
 		};
 		1EE1A5D32CB020C200B89E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577B1B3A1B89B15882E330E0 /* Pods-SSL PinningTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +760,7 @@
 		};
 		1EE1A5D42CB020C200B89E46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499E5A0975FE1249EB422D38 /* Pods-SSL PinningTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +780,7 @@
 		};
 		1EE1A5D62CB020C200B89E46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0CD6606668146C7DD2A45C /* Pods-SSL Pinning-SSL PinningUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +798,7 @@
 		};
 		1EE1A5D72CB020C200B89E46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D678848E399B5F956DD25421 /* Pods-SSL Pinning-SSL PinningUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -601,6 +854,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1EB2766C2CB1BD880035D2EA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		1EB276712CB1BE000035D2EA /* XCRemoteSwiftPackageReference "TrustKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/datatheorem/TrustKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EB2766D2CB1BD880035D2EA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EB2766C2CB1BD880035D2EA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1EB276722CB1BE000035D2EA /* TrustKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EB276712CB1BE000035D2EA /* XCRemoteSwiftPackageReference "TrustKit" */;
+			productName = TrustKit;
+		};
+		1EB276762CB1BE000035D2EA /* TrustKitStatic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EB276712CB1BE000035D2EA /* XCRemoteSwiftPackageReference "TrustKit" */;
+			productName = TrustKitStatic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1EE1A59D2CB020C000B89E46 /* Project object */;
 }
