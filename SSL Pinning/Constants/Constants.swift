@@ -22,6 +22,6 @@ class Constants {
         return urlString
     }
     
-    static let localPublicKey = "CpmBztr3L/AZjANtR+K3vhridQoIsoyqTl5yU5zQQLQ="
+    static let localPublicKey = "UByNN6wh6WJFNj04mBWbj+iAfJP3C60LXpHBZXmMXwk="
     
 }

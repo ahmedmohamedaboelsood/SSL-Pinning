@@ -15,8 +15,8 @@ public class CertificatePinner {
             kTSKIncludeSubdomains: true,
             kTSKSwizzleNetworkDelegates: false,
             kTSKPinnedDomains: [
-                "api.openweathermap.org": [
-                    kTSKPublicKeyHashes: [
+                "api.openweathermap.org": [ ////// your host
+                    kTSKPublicKeyHashes: [ //// your public keys
                         Constants.localPublicKey,
                         "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB=",
                         "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB="
